@@ -6,8 +6,11 @@ class Dog
   def initialize (name)
     @name = name
     @@name << self
-  end 
+  end
 
+def self.all
+  @@name. each do |dog_name|
+    puts "#{dog_name}"
 
 
 
